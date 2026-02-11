@@ -1,0 +1,55 @@
+/* Horizontal Landscape */
+@media (orientation: landscape) and (min-width: 568px) {
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        height: 20vh;
+        z-index: 999;
+    }
+    
+    .navbar {
+        opacity: 0;
+        transform: translateY(-20px);
+        pointer-events: none;
+        background-color: #384461;
+    
+        transition:
+            opacity 1s ease,
+            transform 1s ease;
+    }
+    
+    .navbar.visible {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+    }
+    
+    .navbar.no-effect {
+        opacity: 1;
+        transform: none;
+        transition: none;
+        pointer-events: auto;
+    }
+    
+    #nav-full-display ul {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
+    
+    #logo img {
+        width: 120px;
+        margin: 0 !important;
+    }
+    
+    .navbar li {
+        width: calc(100vw/3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+}

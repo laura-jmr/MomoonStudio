@@ -1,0 +1,49 @@
+.ad {
+    background-color: var(--color-dark-blue);
+    color: var(--color-rosa);
+    position: fixed;
+    top: 130px;
+    margin: 0;
+    left: 0;
+    width: 100vw;
+    height: 80px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+.ad p {
+    color: var(--color-beige);
+    font-size: 1.1rem;
+}
+
+.ad a {
+    background-color: var(--color-rosa);
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad i {
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.ad div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+}
+
+.ad .hide {
+    display: none;
+}

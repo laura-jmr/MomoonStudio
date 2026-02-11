@@ -1,0 +1,45 @@
+/* Horizontal Landscape */
+@media (orientation: landscape) and (min-width: 568px) {
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 0.8rem;
+        color: var(--color-beige);
+        height: 100px;
+    }
+    
+    #footer-links {
+        width: 40vw;
+        margin: 0 30vw;
+        height: fit-content;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #footer-links a {
+        height: fit-content;
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        opacity: 0.8;
+    }
+    
+    #footer-links p {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .footer-socials ul {
+        display: flex;
+        width: 220px;
+        justify-content: space-between;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+}

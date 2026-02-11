@@ -1,0 +1,27 @@
+/* Tablet Landscape */
+@media (orientation: landscape) and (min-width: 1024px) {
+    .ad {
+        position: fixed;
+        top: 100px;
+        margin: 0;
+        left: 0;
+        width: 100vw;
+        height: 70px;
+        padding-top: 0;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 7rem;
+        padding-right: 7rem;
+        align-items: center;
+        border-radius: 0;
+    }
+
+    .ad button {
+        margin: 0;
+        width: 20vw;
+    }
+
+    .ad div {
+        width: 40vw;
+    }
+}

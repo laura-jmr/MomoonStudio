@@ -1,0 +1,42 @@
+/* Tablet */
+@media (orientation: portrait) and (min-width: 666px) {
+    #home {
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    #home h1 {
+        padding-top: 6vh;
+        font-size: 3.5rem;
+    }
+
+    #slogan {
+        font-size: 2rem;
+    }
+
+    #work-title {
+        margin-top: 10vh;
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    #work-banners {
+        position: relative;
+        left: -4rem;
+    }
+
+    .work-banner {
+        height: 20vh;
+        width: 100vw;
+        margin-bottom: 1rem;
+        overflow: hidden;
+    }
+
+    .work-banner:last-child {
+        margin-bottom: 0;
+    }
+
+    .work-banner img {
+        height: 100%;
+    }
+}

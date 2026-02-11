@@ -1,0 +1,17 @@
+#imprint {
+    margin: 20vh 15vw 0;
+}
+
+#imprint h1 {
+    font-size: 3rem;
+}
+
+#imprint p {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+#imprint span {
+    font-weight: bold;
+}
+

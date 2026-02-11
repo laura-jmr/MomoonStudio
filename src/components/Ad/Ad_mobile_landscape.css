@@ -1,0 +1,25 @@
+/* Landcape Mobile */
+@media (orientation: landscape) and (min-width: 568px) {
+    .ad {
+        position: fixed;
+        top: 100px;
+        margin: 0;
+        left: 0;
+        width: 100vw;
+        height: 80px;
+        padding-top: 0;
+        display: flex;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        justify-content: space-between;
+    }
+
+    .ad button {
+        margin: 6rem 0 2rem 25%;
+        width: 40%;
+    }
+
+    .ad div {
+        width: 50vw;
+    }
+}

@@ -1,0 +1,139 @@
+/* Desktop */
+@media (min-width: 1280px) {
+    #home {
+        margin: 0;
+        padding-top: 0;
+    }
+
+    .background-video {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #landing-section {
+        height: 100vh;
+        padding-top: 0;
+        position: relative;
+        background-color: #384461;
+    }
+
+    #home h1 {
+        font-size: 5rem;
+        font-weight: 300;
+        line-height: 8rem;
+    }
+
+    #slogan {
+        position: relative;
+        font-size: 2rem;
+        font-weight: 50;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        top: 0;
+        text-align: center;
+    }
+
+    #slogan span {
+        font-style: italic;
+        font-weight: 50;
+    }
+
+    #berlin-based {
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+
+    #yellow {
+        color: var(--color-yellow);
+    }
+
+    .center-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60vw;
+        margin: 10vh 20vw;
+    }
+
+    .center-div h1 {
+        background-color: #384461;
+        margin: 0 !important;
+        font-family: "Averia Serif Libre", serif !important;
+    }
+
+    .center-div h1 span {
+        font-family: "Lora", serif;
+    }
+
+    #lanugage {
+        position: absolute;
+        right: 10vw;
+        font-size: 1.5rem;
+        top: 102.5vh;
+    }
+
+    #work-section {
+        background-color: #090C1F;
+        padding: 0 10vw;
+        padding-bottom: 15vh;
+    }
+
+    #work-section h2 {
+        text-align: center;
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+
+    #poster-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+    }
+
+    .poster {
+        height: 500px;
+        margin: 0 10px;
+    }
+
+    .poster img {
+        height: 100%;
+        transition: transform 0.35s ease, box-shadow 0.35s ease, opacity 0.35s ease;
+    }
+
+    .poster div {
+        height: 400px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .poster a {
+        cursor: pointer;
+    }
+
+    .poster p {
+        color: var(--color-yellow);
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .sneak-peak img {
+        opacity: 1;
+    }
+
+    .sneak-peak-banner {
+        position: absolute;
+    }
+
+    .poster img:hover {
+        transform: scale(1.1);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    }
+
+    .sneak-peak img:hover {
+        opacity: 0.4;
+    }
+}
