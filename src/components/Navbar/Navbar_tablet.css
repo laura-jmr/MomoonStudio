@@ -1,7 +1,0 @@
-/* Tablets */
-@media (orientation: portrait) and (min-width: 666px) {
-    #logo img {
-        width: 180px;
-        margin-left: 2rem;
-    }
-}
