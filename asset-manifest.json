@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bf1d4bb.css",
-    "main.js": "/static/js/main.6111a5ee.js",
-    "static/media/IMG_8368.jpg": "/static/media/IMG_8368.15c81f8793a022c7d429.jpg",
+    "main.css": "/static/css/main.b426991c.css",
+    "main.js": "/static/js/main.67c6428e.js",
+    "static/media/storyboard1.png": "/static/media/storyboard1.1ea60e143d1ccc7dab70.png",
+    "static/media/storyboard4.PNG": "/static/media/storyboard4.3a98a0985c0a56336160.PNG",
+    "static/media/storyboard2.PNG": "/static/media/storyboard2.d05a3144ab55ccc274ec.PNG",
+    "static/media/storyboard3.PNG": "/static/media/storyboard3.472c62a24bedb0cd84ff.PNG",
+    "static/media/storyboard5.PNG": "/static/media/storyboard5.2491f69999e496cbda70.PNG",
+    "static/media/Marielle3.jpg": "/static/media/Marielle3.ed5c7237a0bfbd9d191d.jpg",
+    "static/media/character_design1.PNG": "/static/media/character_design1.a791b70b7e4354aad68b.PNG",
     "static/media/IMG_8371.jpg": "/static/media/IMG_8371.b7321b8e022ee9880711.jpg",
     "static/media/IMG_8370.jpg": "/static/media/IMG_8370.3fbfd357876024ea5272.jpg",
     "static/media/IMG_8369.jpg": "/static/media/IMG_8369.29b38f2030dc57fd753e.jpg",
+    "static/media/CharliandMullis.jpg": "/static/media/CharliandMullis.1435bdbdecbad480a52c.jpg",
+    "static/media/seperator_illustration.PNG": "/static/media/seperator_illustration.4348ef53917a7faf1772.PNG",
     "index.html": "/index.html",
-    "main.6bf1d4bb.css.map": "/static/css/main.6bf1d4bb.css.map",
-    "main.6111a5ee.js.map": "/static/js/main.6111a5ee.js.map"
+    "main.b426991c.css.map": "/static/css/main.b426991c.css.map",
+    "main.67c6428e.js.map": "/static/js/main.67c6428e.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bf1d4bb.css",
-    "static/js/main.6111a5ee.js"
+    "static/css/main.b426991c.css",
+    "static/js/main.67c6428e.js"
   ]
 }
