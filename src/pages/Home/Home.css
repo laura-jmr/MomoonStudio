@@ -2,20 +2,22 @@
 #home {
     position: relative;
     margin: 0;
+    background-color: var(--color-beige);
+    color: var(--color-dark-blue);
 }
 
 .background-video {
     height: 70vh;
     width: 100%;
+    margin-left: 10px;
     object-fit: cover;
     object-position: center center;
 }
 
 #landing-section {
     height: 70vh;
-    padding-top: 30vh;
     position: relative;
-    background-color: #384461;
+    background-color: var(--color-dark-blue);
 }
 
 #home h1 {
@@ -68,28 +70,12 @@
     justify-content: center;
     align-items: center;
     width: 70vw;
-    margin: 45vh 15vw 10vh 15vw;
+    padding: 45vh 15vw 10vh 15vw;
 
 }
-
-#lanugage {
-    position: absolute;
-    left: 0;
-    width: 15vw;
-    margin: 0 42.75vw;
-    padding: 0.5rem;
-    text-align: center;
-    font-size: 1.5rem;
-    top: 105vh;
-    user-select: none;
-    border: 1px solid var(--color-beige);
-    border-radius: 50px;
-    cursor: pointer;
-}
-
 
 #work-section {
-    background-color: #090C1F;
+    background-color: var(--color-beige);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,6 +89,7 @@
 }
 
 #poster-section {
+    width: 75vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +100,7 @@
     height: 100px;
     margin-bottom: 10vh;
     font-size: 1rem;
-    width: 70vw;
+    width: calc(100% / 2);
 }
 
 .poster img {
@@ -127,6 +114,7 @@
     position: relative;
     height: 150px;
     overflow: hidden;
+    width: 300px;
 }
 
 .poster a {
@@ -136,7 +124,6 @@
 .poster p {
     color: var(--color-yellow);
     font-size: 1.5rem;
-    text-align: center;
     margin-top: 1rem;
 }
 
@@ -155,4 +142,21 @@
 
 .sneak-peak img:hover {
     opacity: 0.4;
+}
+
+.seperator {
+    width: 100vw;
+    height: 80px;
+    position: absolute;
+    top: calc(90vh - 35px);
+}
+
+.seperator_illustrations {
+    width: 100vw;
+    position: relative;
+    display: flex
+}
+
+.seperator_illustrations img {
+    height: 70px;
 }

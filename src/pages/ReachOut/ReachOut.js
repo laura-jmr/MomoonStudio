@@ -18,7 +18,7 @@ function ReachOut() {
                         playsInline
                         preload="auto"
                         className="background-video">
-                        <source src="contact_dark.mp4" type="video/mp4" />
+                        <source src="reachout.mp4" type="video/mp4" />
                     </video>
                 </div>
                 <h1>
@@ -59,6 +59,7 @@ function ReachOut() {
                         ? "Oder schreiben Sie uns hier:"
                         : "Or write us here:"}
                 </span></p>
+                {/* 
                 <form>
                     <input type="text" id="name" name="name" placeholder='*Name' required></input>
                     <input type="email" id="email" name="email" placeholder='*E-Mail' required></input>
@@ -73,6 +74,7 @@ function ReachOut() {
                         ? "Senden"
                         : "Send"}</button>
                 </form>
+                */}
             </div>
         </PageLayout>
     );

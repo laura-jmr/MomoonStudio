@@ -1,5 +1,5 @@
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100vw;
     height: 10vh;
@@ -10,7 +10,6 @@ nav {
     opacity: 0;
     transform: translateY(-20px);
     pointer-events: none;
-    background-color: #384461;
 
     transition:
         opacity 1s ease,
@@ -47,4 +46,14 @@ nav {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+#lanugage {
+    position: absolute;
+    height: 104.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 250px;
 }
