@@ -36,7 +36,7 @@ function Navbar({ navEffect = false }) {
     const scrollProgress = useScrollProgress(navEffect);
     const [showIntro, setShowIntro] = useState(true);
 
-    useEffect(() => {
+    /*useEffect(() => {
         if (!navEffect) return;
 
         if (window.scrollY !== 0) {
@@ -49,7 +49,7 @@ function Navbar({ navEffect = false }) {
         }, 1000);
 
         return () => clearTimeout(timer);
-    }, [navEffect]);
+    }, [navEffect]);*/
 
     const isVisible =
         (!navEffect) ||
@@ -67,16 +67,19 @@ function Navbar({ navEffect = false }) {
                 <ul>
                     <li><a href='/about'>
                         {language === "de"
-                        ? "Über uns"
-                        : "About"}
+                            ? "Über uns"
+                            : "About"}
                     </a></li>
                     <a id='logo' href='/'><img src='/logo_transparent.PNG' alt='Logo' /></a>
                     <li><a href='/reachout'>
                         {language === "de"
-                        ? "Kontakt"
-                        : "Contact"}
-                        </a></li>
+                            ? "Kontakt"
+                            : "Contact"}
+                    </a></li>
                 </ul>
+                <p id='lanugage' onClick={toggleLanguage} style={{ cursor: "pointer" }}>
+                    {language === "de" ? "Switch to English" : "Wechsel zu Deutsch"}
+                </p>
             </div>
         </nav >
     );

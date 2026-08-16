@@ -3,6 +3,7 @@
     #reach-out {
         margin-top: 15vh;
         text-align: center;
+        background-color: var(--color-dark-blue);
     }
 
     #reach-out .background-video {

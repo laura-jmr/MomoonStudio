@@ -69,25 +69,9 @@
         justify-content: center;
         align-items: center;
         width: 70vw;
-        margin: 45vh 15vw 10vh 15vw;
+        padding: 45vh 15vw 10vh 15vw;
 
     }
-
-    #lanugage {
-        position: absolute;
-        left: 0;
-        width: 10vw;
-        margin: 0 45vw;
-        padding: 0.5rem;
-        text-align: center;
-        font-size: 1.5rem;
-        top: 105vh;
-        user-select: none;
-        border: 1px solid var(--color-beige);
-        border-radius: 50px;
-        cursor: pointer;
-    }
-
 
     #work-section {
         background-color: #090C1F;

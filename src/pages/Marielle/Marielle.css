@@ -69,7 +69,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .seperation-line {
@@ -83,7 +83,8 @@
 
 .description {
     font-size: 1.2rem;
-    text-align: center;
+    text-align: justify;
+    line-height: 2rem;
 }
 
 .img_teaser_container {
@@ -103,6 +104,6 @@
 .credits {
     margin-top: 2rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }

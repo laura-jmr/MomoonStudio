@@ -29,7 +29,6 @@ function Home() {
     return (
         <PageLayout navEffect={isDesktop}>
             <div id='home'>
-                <h1>THIS IS A BETA WEBSITE, STILL IN WORK.</h1>
                 <div id='landing-section'>
                     {/*<ScrollVideo src="/intro_v1.mp4" />*/}
                     <video
@@ -39,40 +38,37 @@ function Home() {
                         playsInline
                         preload="auto"
                         className="background-video">
-                        <source src="intro_v1.mp4" type="video/mp4" />
+                        <source src="darkkk.mp4" type="video/mp4" />
                     </video>
                 </div>
-                <p id='lanugage'
-                    onClick={toggleLanguage}
-                    style={{ cursor: "pointer" }}
-                >
-                    {language === "de" ? "EN" : "DE"}
-                </p>
 
-                <div className='seperator'></div>
+                <div className='seperator'>
+                    <div className='seperator_illustrations'>
+                        <img src='seperator_illustration.PNG' alt='illustration of little stars as a seperator between the studio video and the content' />
+                        <img src='seperator_illustration.PNG' alt='illustration of little stars as a seperator between the studio video and the content' />
+                        <img src='seperator_illustration.PNG' alt='illustration of little stars as a seperator between the studio video and the content' />
+                    </div>
+                </div>
 
                 <div className='center-div'>
                     <p id='slogan'>
-                        {language === "de"
-                            ? "Wir erzählen Geschichten, die berühren -"
-                            : "We tell stories that speak softly -"}<br />
-                        {language === "de"
-                            ? "für Kinder, für Erwachsene,"
-                            : "to children, to grown ups,"}<br />
-                        {language === "de"
-                            ? "für "
-                            : "to  "}
-                        <span id='yellow'>
-                            {language === "de"
-                                ? "jeden, der noch zuhört."
-                                : "anyone still listening."}
-                        </span><br /><br /><br />
                         <span id='berlin-based'>
                             {language === "de"
-                                ? "2D Animationsstudio aus Berlin"
-                                : "2D Animation Studio Based in Berlin, Germany"}
+                                ? "Independent 2D Animationsstudio aus Berlin"
+                                : "Independent 2D Animation Studio based in Berlin, Germany"}
                         </span>
                     </p>
+                </div>
+
+                <div className='mullis-section'>
+                    <div>
+                        <img src='MulliAnimation1.png' />
+                        <img src='MulliAnimation2.png' />
+                        <img src='MulliAnimation3.png' />
+                    </div>
+                    <img src='Mullis.png' className='mullis-one'/>
+                    <h2>We are the Mullis</h2>
+                    <p>The Mullis aka the Mullemoons are the mascots of Momoon Studio. The</p>
                 </div>
 
                 <div id='work-section'>
@@ -85,25 +81,17 @@ function Home() {
                     <div id='poster-section'>
                         <div className='poster'>
                             <div>
-                                <a href='/portfolio/marielle-und-die-waldgeister'><img src='marielle.jpg' /></a>
+                                <a href='/portfolio/marielle-und-die-waldgeister'><img src='Marielle3.jpg' /></a>
                             </div>
-                            <p>Marielle und die Waldgeister (orig.)</p>
+                            <p>„Marielle and the Spirits of the Forest“ | 2D Animated Shortfilm | 16:9 | In-Progress</p>
                         </div>
-                    </div>
-
-                    <h2>
-                        {language === "de"
-                            ? "In Entwicklung"
-                            : "In Development"}
-                    </h2>
-
-                    <div id='poster-section'>
-                        <div className='poster sneak-peak'>
+                        <div className='poster poster-charli'>
                             <div>
-                                <a><img src='IMG_8378.jpg' /></a>
+                                <a href='/portfolio/charli-und-die-mullis'><img src='CharliandMullis.jpg' /></a>
                             </div>
-                            <p>Die Momos (orig.) | 10 x 14 min | 2D animation | color</p>
+                            <p>„Charli and the Mullis“ | 2D animated shorts | color</p>
                         </div>
+
                     </div>
                 </div>
             </div>

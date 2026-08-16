@@ -16,7 +16,9 @@ function Imprint() {
                         : "Imprint"}
                 </h1>
 
-                <p>Momoon Studio<br />
+                <p>Momoon Studio<br/>
+                    Founded and operated by Laura Jürgensmeier.
+                    <br />
                     <br />
                     Laura Jürgensmeier<br />
                     Durlacher Str. 21B<br />

@@ -22,35 +22,46 @@ function About() {
                         ? "Über das Studio"
                         : "About the Studio"}
                 </h1>
-                <h2>
-                    {language === "de"
-                        ? "Unsere Vision"
-                        : "Our Vision"}
-                </h2>
                 <p>
                     {language === "de"
-                        ? "Wir sind ein unabhängiges Animationsstudio."
-                        : "We are an independet animation studio."}
+                        ? "Momoon Studio ist ein unabhängiges Animationsstudio, was bedeutet, dass alle Projekte ohne finanzielle Unterstützung entstehen und aus reinem künstlerischem Antrieb heraus realisiert werden."
+                        : "Momoon Studio is an independet animation studio, meaning all projects are non-funded and made out of pure art."}
                     <br />
                     {language === "de"
-                        ? "Unsere Arbeit stammt aus Liebe für traditionelle 2D Animationen und dem Gefühl von "
-                        : "Our work is rooted in a love for traditional 2D animation and the quiet sense of "}
+                        ? "Unsere Arbeit stammt aus der Liebe für traditionelle Frame-für-Frame Animationen und dem Gefühl von "
+                        : "Our work is rooted in love for traditional frame-by-frame animation and the deep feeling of "}
                     <span>
                         {language === "de"
                             ? "Nostalgie"
                             : "nostalgia"}
                     </span>
                     {language === "de"
-                        ? ", die darin liegt."
-                        : " it carries."}
+                        ? "."
+                        : "."}
                 </p>
                 <br />
+                <h2>
+                    {language === "de"
+                        ? "Das Team"
+                        : "The Team"}
+                </h2>
                 <p>
                     {language === "de"
                         ? "Für uns ist Animation eine einzigartige Kunstform. Sie kombiniert Zeichnung, Bewegung, Sound und Zeit zu einer emotionalen Experience, wie es kein anderes Medium kann. Mit der Ungebundenheit zu physischen Realität kann Animation abstrakte Geschichten erzählen, dort, wo Fantasie Bedeutung schafft, wie es Realismus niemald könnte."
-                        : "To us, animation is a unique art form. It brings together drawing, movement, sound and time into an emotional experience like no other medium can. With it's boundlessness to physical reality, animation allows stories to exist in a more abstract space, one, where imagination shapes meaning more than realism ever could."}
+                        : "Up to now, Momoon is a single-animator studio. Everything you see is done by one single person, from the conception of projects, to animation and post-production."}
                 </p>
-                <br />
+                <div className='teammember-card'>
+                    <img src="Laura.png" alt='photo of Laura' />
+                    <div>
+                        <p>Laura Jürgensmeier</p>
+                        <p>contact@momoon-studio.com</p>
+                    </div>
+                </div>
+                <h2>
+                    {language === "de"
+                        ? "Unsere Vision"
+                        : "Our Vision"}
+                </h2>
                 <p>
                     {language === "de"
                         ? "Wir glauben, dass es in der Kunst vor allem um emotionale Berührung geht. Künstler:innen bieten Fragmente ihrer eigenen Erfahrungen, Emotionen und Sichtweisen auf die Welt an, die auf ihre eigene Weise wahrgenommen werden können. Man kann versuchen, überzeugende Emotionen zu erzeugen, aber Gefühle sind niemals garantiert. Jeder betrachtet die Welt durch seine persönliche Brille."
@@ -97,13 +108,13 @@ function About() {
 
                 <div className='get-in-touch-section'>
                     <h3>
-                    {language === "de"
-                        ? "Wollen Sie sich mit uns austauschen?"
-                        : "Want to get in touch?"}
-                        <br /><span>
                         {language === "de"
-                        ? "Schreiben Sie uns!"
-                        : "Reach out!"}
+                            ? "Wollen Sie sich mit uns austauschen?"
+                            : "Want to get in touch?"}
+                        <br /><span>
+                            {language === "de"
+                                ? "Schreiben Sie uns!"
+                                : "Reach out!"}
                         </span></h3>
                     <a>contact@momoon-studio.com</a>
                 </div>
